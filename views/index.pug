@@ -5,6 +5,22 @@ html
 		if useExternalStyles 
 			link(rel="stylesheet", href="/dist/application.css")
 	body 
-		h1 Hello World
+		.site-wrap
+			.col.left 
+				section.users
+					h1
+						i.fa-solid.fa-spinner.fa-spin
+			.col.center
+				section.player
+					h1 
+						i.fa-solid.fa-spinner.fa-spin
+				section.chat 
+					h1 
+						i.fa-solid.fa-spinner.fa-spin
+			.col.right
+				section.playlist 
+					h1 
+						i.fa-solid.fa-spinner.fa-spin
+
 		script(src="/dist/vendor.js")
 		script(src="/dist/application.js")
